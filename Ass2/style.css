@@ -6,7 +6,7 @@ body{
 	font-family: 'Arvo', serif;
 	color:#0f0a0a;
 	margin: 0 auto;
-	padding: 10px 50px;
+	padding: 0px ;
 }
 
 img {
@@ -16,8 +16,10 @@ img {
     margin: auto;
     
 }
+
 .content{
 	display: block;
+	padding: 50px;
 
 
 }
@@ -25,7 +27,7 @@ img {
 ul {
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding: 0px 50px;
 	overflow: hidden;
 	background-color: #0f0a0a;	
 }
@@ -35,21 +37,27 @@ li{
 
 }
 li a {
-    display: inline-block;
+   display: inline-block;
    color: #f5efed;
    text-align: center;
    padding: 20px 22px;
    text-decoration: none;
    
 }
+hr {
+	height: 1px;
+color: #123455;
+background-color: #123455;
+border: none;
 
+}
 li a:hover{
 	background-color: #1c7c54;
 }
 .footer{
-	 background-color: #0f0a0a;
-    color: white;
-    padding: 20px;
-
-
+	 font-family: 'Rock Salt', cursive;
+	 
+     color: black;
+     padding:  20px 0px;
 }
+
